@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/framelayout_map_dest">
+
+
+        <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <LinearLayout
+                android:id="@+id/locationMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:orientation="vertical" android:visibility="gone" >
+
+            <TextView
+                    android:id="@+id/locationMarkertext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner_map"
+                    android:gravity="center"
+                    android:minWidth="130dp"
+                    android:text="Destination"
+                    android:textSize="12dp"
+                    android:textColor="@android:color/white" />
+
+            <ImageView
+                    android:id="@+id/imageMarker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/marker" android:contentDescription="Destination"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_gravity="top"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="5dp"
+                      android:background="#fff">
+
+            <android.support.v7.widget.AppCompatButton android:layout_width="0dp"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_weight="1"
+                                                       android:text="@string/search_for_a_place"
+                                                       android:drawableLeft="@drawable/ic_my_location_white_24dp"
+                                                       android:theme="@style/SecondaryButton"
+                                                       style="@style/Widget.AppCompat.Button.Colored"
+                                                       android:id="@+id/place_btn"
+                                                       android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="top"
+                      android:padding="20dp"
+                      android:layout_marginTop="60dp"
+                      android:orientation="horizontal"
+                      android:clipToPadding="false"
+                      >
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:layout_marginBottom="10dp"
+                      android:id="@+id/rider1"
+                      android:elevation="30dp"
+                      android:layout_marginLeft="20dp"
+                      android:visibility="gone"
+                      android:layout_marginStart="20dp"
+                      android:background="@drawable/aab"/>
+
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginLeft="30dp"
+                      android:layout_marginStart="30dp"
+                      android:id="@+id/rider2"
+                      android:visibility="gone"
+                      android:background="@drawable/aab"/>
+
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginLeft="30dp"
+                      android:layout_marginStart="30dp"
+                      android:id="@+id/rider3"
+                      android:visibility="gone"
+                      android:background="@drawable/aab"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:gravity="end"
+                      android:layout_gravity="end"
+                      android:layout_marginEnd="20dp"
+                      android:layout_marginRight="20dp"
+                      android:layout_marginTop="100dp"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/my_position"
+                    android:src="@android:drawable/ic_menu_mylocation"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                     />
+
+            <ImageView
+                    android:id="@+id/clear_dest"
+                    android:src="@drawable/ic_clear_black_24dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_gravity="bottom"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#fff">
+
+            <android.support.v7.widget.AppCompatButton android:layout_width="0dp"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_weight="1"
+                                                       android:text="@string/establish_destination"
+                                                       android:theme="@style/SecondaryButton"
+                                                       style="@style/Widget.AppCompat.Button.Colored"
+                                                       android:id="@+id/set_dest"
+                                                       android:textAllCaps="false"/>
+
+            <android.support.v7.widget.AppCompatButton android:layout_width="0dp"
+                                                       android:layout_height="wrap_content"
+                                                       android:text="@string/back"
+                                                       android:layout_weight="1"
+                                                       android:theme="@style/PrimaryButton"
+                                                       style="@style/Widget.AppCompat.Button.Colored"
+                                                       android:id="@+id/cancel_map_dest"
+                                                       android:textAllCaps="false"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

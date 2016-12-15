@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:gravity="start" android:clipToPadding="false"
+>
+    <TextView android:layout_width="35dp" android:layout_height="35dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginTop="5dp"
+              android:layout_alignParentEnd="true"
+              android:id="@+id/trash"
+              android:layout_marginEnd="4dp"
+              android:layout_marginRight="4dp"
+              android:background="@drawable/location_reached"
+              android:alpha="0"
+              android:visibility="gone"
+    />
+
+    <TextView android:layout_width="30dp" android:layout_height="30dp"
+              android:layout_toRightOf="@+id/p"
+              android:layout_toEndOf="@+id/p"
+              android:layout_marginTop="7dp"
+              android:layout_marginLeft="2dp"
+              android:layout_marginStart="2dp"
+              android:id="@+id/show_location"
+              android:background="@drawable/ic_my_location_white_24dp"
+              android:visibility="gone"
+    />
+
+    <RelativeLayout android:layout_width="53dp"
+                    android:layout_height="53dp"
+                    android:id="@+id/p"
+                    android:alpha="0">
+
+        <TextView android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:layout_marginBottom="10dp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentStart="true"
+                  android:id="@+id/passenger"
+                  android:background="@drawable/boy_left"
+        />
+        <Button android:background="@drawable/rounded_image"
+                android:layout_height="18dp"
+                android:layout_width="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="3"
+                android:enabled="false"
+                android:id="@+id/count"
+                android:textColor="#fff"
+                android:visibility="invisible"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>

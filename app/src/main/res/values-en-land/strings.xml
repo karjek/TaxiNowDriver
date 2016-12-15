@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TaxiNow Driver</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Connect</string>
+    <string name="action_sign_in_short">Connect</string>
+    <string name="error_invalid_email">invalid email address</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_field_required">Required field</string>
+    <string name="preference_file_key">taxiNowDriverPref</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_client_id">768745961721-7upu5ua8othej9o5qdhcj63okdkaevj1.apps.googleusercontent.com</string>
+    <string name="playsercices_not_enabled">"Google Play Services not available: "</string>
+    <string name="actual_position">Current position</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="error_connection">Please check your internet connection</string>
+    <string name="gps_disabled">Please enable GPS localisation</string>
+    <string name="location_params">Location settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="new_client">New client</string>
+    <string name="passengers_limit_reached">It is forbidden to have more than 3 passengers</string>
+    <string name="Departure">Departure</string>
+    <string name="Arrival">Arrival</string>
+    <string name="taxi_already_found">The client has already found a taxi!</string>
+    <string name="client_canceled">The client has canceled his request!</string>
+    <string name="new_passenger">New passenger</string>
+    <string name="Begin">Start searching</string>
+    <string name="search_for_a_place">Search for a place</string>
+    <string name="establish_destination">Establish the destination</string>
+    <string name="back">Back</string>
+    <string name="name">Name:</string>
+    <string name="departure_two_points">Departure:</string>
+    <string name="arrival_two_points">Arrival:</string>
+    <string name="passengers_number">Persons number:</string>
+    <string name="detour">Detour:</string>
+    <string name="preview_route">Preview the route</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Refuse</string>
+</resources>

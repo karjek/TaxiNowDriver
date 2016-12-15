@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><bitmap android:src="@drawable/ic_my_location_white_24dp"/> </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:color="@color/whiteColor" android:width="1dp"/>
+        </shape>
+    </item>
+</layer-list>

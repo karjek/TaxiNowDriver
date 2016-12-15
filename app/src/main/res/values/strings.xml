@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TaxiNow Driver</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="error_invalid_email">l\'adresse email est invalide</string>
+    <string name="error_invalid_password">Mot de passe invalide</string>
+    <string name="error_incorrect_password">Mot de passe incorrecte</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="preference_file_key">taxiNowDriverPref</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_client_id">768745961721-7upu5ua8othej9o5qdhcj63okdkaevj1.apps.googleusercontent.com</string>
+    <string name="playsercices_not_enabled">"Google Play Services non disponibles: "</string>
+    <string name="actual_position">Position Actuel</string>
+    <string name="Yes">Oui</string>
+    <string name="No">Non</string>
+    <string name="error_occurred">Une erreur s\'est produite</string>
+    <string name="error_connection">Veuillez verifiez votre connexion internet</string>
+    <string name="gps_disabled">GPS inactif!</string>
+    <string name="location_params">Paramètres de localisation</string>
+    <string name="Cancel">Annuler</string>
+    <string name="new_client">Nouveau client</string>
+    <string name="passengers_limit_reached">Il est intérdit d\'avoir plus de 3 passagers</string>
+    <string name="Departure">Départ</string>
+    <string name="Arrival">Arrivé</string>
+    <string name="taxi_already_found">Le client a déjà trouver un taxi !</string>
+    <string name="client_canceled">Le client a annulé sa demande !</string>
+    <string name="new_passenger">Nouveau passager</string>
+    <string name="Begin">Commencer la recherche</string>
+    <string name="search_for_a_place">Rechercher un endroit</string>
+    <string name="establish_destination">Etablir la destination</string>
+    <string name="back">Retour</string>
+    <string name="name">Nom:</string>
+    <string name="departure_two_points">Départ:</string>
+    <string name="arrival_two_points">Arrivé:</string>
+    <string name="passengers_number">Nombre de personnes:</string>
+    <string name="detour">Détour:</string>
+    <string name="preview_route">Voir le Trajet</string>
+    <string name="accept">Accepter</string>
+    <string name="decline">Refuser</string>
+</resources>
